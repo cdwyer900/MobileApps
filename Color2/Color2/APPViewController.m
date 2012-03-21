@@ -1,6 +1,6 @@
 //
 //  APPViewController.m
-//  Color3
+//  Color2
 //
 //  Created by Professor on 3/21/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
@@ -9,18 +9,6 @@
 #import "APPViewController.h"
 
 @implementation APPViewController
-@synthesize buttonBlue;
-@synthesize buttonRed;
-- (IBAction)buttonPress:(id)sender {
-    self.view.backgroundColor = [UIColor blueColor];
-}
-- (IBAction)redPress:(id)sender {
-    self.view.backgroundColor = [UIColor redColor]; 
-}
-- (IBAction)purplePress:(id)sender {
-   self.view.backgroundColor = [UIColor purpleColor];  
-    
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -38,8 +26,6 @@
 
 - (void)viewDidUnload
 {
-    [self setButtonBlue:nil];
-    [self setButtonRed:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -68,7 +54,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    } else {
+        return YES;
+    }
 }
 
 @end
