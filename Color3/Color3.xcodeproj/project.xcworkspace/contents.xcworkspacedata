@@ -4,4 +4,39 @@
    <FileRef
       location = "self:Color3.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:../Color3"
+      name = "Color3">
+      <FileRef
+         location = "group:APPAppDelegate.h">
+      </FileRef>
+      <FileRef
+         location = "group:APPAppDelegate.m">
+      </FileRef>
+      <FileRef
+         location = "group:APPViewController.h">
+      </FileRef>
+      <FileRef
+         location = "group:APPViewController.m">
+      </FileRef>
+      <FileRef
+         location = "group:Color3-Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:Color3-Prefix.pch">
+      </FileRef>
+      <Group
+         location = "group:en.lproj"
+         name = "en.lproj">
+         <FileRef
+            location = "group:InfoPlist.strings">
+         </FileRef>
+         <FileRef
+            location = "group:MainStoryboard.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:main.m">
+      </FileRef>
+   </Group>
 </Workspace>

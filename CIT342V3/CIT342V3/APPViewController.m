@@ -1,17 +1,32 @@
 //
 //  APPViewController.m
-//  Color3
+//  CIT342V3
 //
-//  Created by Professor on 3/21/12.
+//  Created by Professor on 3/27/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "APPViewController.h"
 
 @implementation APPViewController
-@synthesize buttonBlue;
-- (IBAction)buttonPress:(id)sender {
-    self.view.backgroundColor = [UIColor blueColor];
+@synthesize yellowButton;
+@synthesize redButton;
+@synthesize blueButton;
+- (IBAction)blueButtonpress:(id)sender {
+    
+    self.view.backgroundColor= [UIColor blueColor];
+    
+}
+- (IBAction)redButtonpresses:(id)sender {
+    
+    self.view.backgroundColor= [UIColor redColor];
+
+}
+- (IBAction)pressYellowbutton:(id)sender {
+    
+    self.view.backgroundColor= [UIColor yellowColor];
+
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -30,8 +45,10 @@
 
 - (void)viewDidUnload
 {
-      [self setButtonBlue:nil];
-      [super viewDidUnload];
+    [self setBlueButton:nil];
+    [self setRedButton:nil];
+    [self setYellowButton:nil];
+    [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }

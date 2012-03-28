@@ -1,18 +1,51 @@
 //
 //  APPViewController.m
-//  Color3
+//  SayHello
 //
-//  Created by Professor on 3/21/12.
+//  Created by Professor on 3/28/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "APPViewController.h"
 
 @implementation APPViewController
-@synthesize buttonBlue;
-- (IBAction)buttonPress:(id)sender {
-    self.view.backgroundColor = [UIColor blueColor];
+@synthesize messageLabel;
+@synthesize nameTextField;
+@synthesize helloButton;
+@synthesize clearButton;
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    
+    [nameTextField resignFirstResponder];
+    return YES;
 }
+
+- (IBAction)pressClear:(id)sender {
+   // nameTextField.text=@"";
+    nameTextField.text=nil;
+    //reset label too
+}
+- (IBAction)helloPress:(id)sender {
+    /*
+
+    
+    messageLabel.text = [NSString stringWithFormat: @"Hello, %@ !",nameTextField.text];
+                      
+    */
+    if ([nameTextField.text length]==0)
+    {
+        messageLabel.text = @"Enter your name please";
+                             
+    }
+    else
+    {
+        messageLabel.text = [NSString stringWithFormat: @"Hello, %@ !",nameTextField.text];
+                             
+    }
+        
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,12 +59,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    nameTextField.delegate=self;
 }
 
 - (void)viewDidUnload
 {
-      [self setButtonBlue:nil];
-      [super viewDidUnload];
+    [self setMessageLabel:nil];
+    [self setNameTextField:nil];
+    [self setHelloButton:nil];
+    [self setClearButton:nil];
+    [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
