@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C72DFE152A35C600766F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C72DFD152A35C600766F8C /* UIKit.framework */; };
+		16C72E00152A35C600766F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C72DFF152A35C600766F8C /* Foundation.framework */; };
+		16C72E02152A35C600766F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C72E01152A35C600766F8C /* CoreGraphics.framework */; };
+		16C72E08152A35C600766F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C72E06152A35C600766F8C /* InfoPlist.strings */; };
+		16C72E0A152A35C600766F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C72E09152A35C600766F8C /* main.m */; };
+		16C72E0E152A35C600766F8C /* APPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C72E0D152A35C600766F8C /* APPAppDelegate.m */; };
+		16C72E11152A35C600766F8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C72E0F152A35C600766F8C /* MainStoryboard.storyboard */; };
+		16C72E14152A35C600766F8C /* APPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C72E13152A35C600766F8C /* APPViewController.m */; };
+		16C72E1C152A35C600766F8C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C72E1B152A35C600766F8C /* SenTestingKit.framework */; };
+		16C72E1D152A35C600766F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C72DFD152A35C600766F8C /* UIKit.framework */; };
+		16C72E1E152A35C600766F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C72DFF152A35C600766F8C /* Foundation.framework */; };
+		16C72E26152A35C600766F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C72E24152A35C600766F8C /* InfoPlist.strings */; };
+		16C72E29152A35C600766F8C /* PetPixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C72E28152A35C600766F8C /* PetPixTests.m */; };
+		16C72E38152A477600766F8C /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C72E36152A477600766F8C /* cat.png */; };
+		16C72E39152A477600766F8C /* happy-dog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C72E37152A477600766F8C /* happy-dog1.png */; };
+		16C72E3B152A478100766F8C /* Question_mark.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 16C72E3A152A478100766F8C /* Question_mark.PNG */; };
+		16C72E3D152A4C0D00766F8C /* icon57x57_masked.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C72E3C152A4C0D00766F8C /* icon57x57_masked.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16C72E1F152A35C600766F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C72DF0152A35C600766F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C72DF8152A35C600766F8C;
+			remoteInfo = PetPix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C72DF9152A35C600766F8C /* PetPix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetPix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C72DFD152A35C600766F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16C72DFF152A35C600766F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16C72E01152A35C600766F8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16C72E05152A35C600766F8C /* PetPix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetPix-Info.plist"; sourceTree = "<group>"; };
+		16C72E07152A35C600766F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C72E09152A35C600766F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16C72E0B152A35C600766F8C /* PetPix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetPix-Prefix.pch"; sourceTree = "<group>"; };
+		16C72E0C152A35C600766F8C /* APPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPAppDelegate.h; sourceTree = "<group>"; };
+		16C72E0D152A35C600766F8C /* APPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPAppDelegate.m; sourceTree = "<group>"; };
+		16C72E10152A35C600766F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		16C72E12152A35C600766F8C /* APPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPViewController.h; sourceTree = "<group>"; };
+		16C72E13152A35C600766F8C /* APPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPViewController.m; sourceTree = "<group>"; };
+		16C72E1A152A35C600766F8C /* PetPixTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetPixTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C72E1B152A35C600766F8C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		16C72E23152A35C600766F8C /* PetPixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PetPixTests-Info.plist"; sourceTree = "<group>"; };
+		16C72E25152A35C600766F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C72E27152A35C600766F8C /* PetPixTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PetPixTests.h; sourceTree = "<group>"; };
+		16C72E28152A35C600766F8C /* PetPixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetPixTests.m; sourceTree = "<group>"; };
+		16C72E36152A477600766F8C /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		16C72E37152A477600766F8C /* happy-dog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy-dog1.png"; sourceTree = "<group>"; };
+		16C72E3A152A478100766F8C /* Question_mark.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question_mark.PNG; sourceTree = "<group>"; };
+		16C72E3C152A4C0D00766F8C /* icon57x57_masked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57x57_masked.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C72DF6152A35C600766F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C72DFE152A35C600766F8C /* UIKit.framework in Frameworks */,
+				16C72E00152A35C600766F8C /* Foundation.framework in Frameworks */,
+				16C72E02152A35C600766F8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C72E16152A35C600766F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C72E1C152A35C600766F8C /* SenTestingKit.framework in Frameworks */,
+				16C72E1D152A35C600766F8C /* UIKit.framework in Frameworks */,
+				16C72E1E152A35C600766F8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C72DEE152A35C600766F8C = {
+			isa = PBXGroup;
+			children = (
+				16C72E3C152A4C0D00766F8C /* icon57x57_masked.png */,
+				16C72E3A152A478100766F8C /* Question_mark.PNG */,
+				16C72E36152A477600766F8C /* cat.png */,
+				16C72E37152A477600766F8C /* happy-dog1.png */,
+				16C72E03152A35C600766F8C /* PetPix */,
+				16C72E21152A35C600766F8C /* PetPixTests */,
+				16C72DFC152A35C600766F8C /* Frameworks */,
+				16C72DFA152A35C600766F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C72DFA152A35C600766F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C72DF9152A35C600766F8C /* PetPix.app */,
+				16C72E1A152A35C600766F8C /* PetPixTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C72DFC152A35C600766F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C72DFD152A35C600766F8C /* UIKit.framework */,
+				16C72DFF152A35C600766F8C /* Foundation.framework */,
+				16C72E01152A35C600766F8C /* CoreGraphics.framework */,
+				16C72E1B152A35C600766F8C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C72E03152A35C600766F8C /* PetPix */ = {
+			isa = PBXGroup;
+			children = (
+				16C72E0C152A35C600766F8C /* APPAppDelegate.h */,
+				16C72E0D152A35C600766F8C /* APPAppDelegate.m */,
+				16C72E0F152A35C600766F8C /* MainStoryboard.storyboard */,
+				16C72E12152A35C600766F8C /* APPViewController.h */,
+				16C72E13152A35C600766F8C /* APPViewController.m */,
+				16C72E04152A35C600766F8C /* Supporting Files */,
+			);
+			path = PetPix;
+			sourceTree = "<group>";
+		};
+		16C72E04152A35C600766F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C72E05152A35C600766F8C /* PetPix-Info.plist */,
+				16C72E06152A35C600766F8C /* InfoPlist.strings */,
+				16C72E09152A35C600766F8C /* main.m */,
+				16C72E0B152A35C600766F8C /* PetPix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16C72E21152A35C600766F8C /* PetPixTests */ = {
+			isa = PBXGroup;
+			children = (
+				16C72E27152A35C600766F8C /* PetPixTests.h */,
+				16C72E28152A35C600766F8C /* PetPixTests.m */,
+				16C72E22152A35C600766F8C /* Supporting Files */,
+			);
+			path = PetPixTests;
+			sourceTree = "<group>";
+		};
+		16C72E22152A35C600766F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C72E23152A35C600766F8C /* PetPixTests-Info.plist */,
+				16C72E24152A35C600766F8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C72DF8152A35C600766F8C /* PetPix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C72E2C152A35C600766F8C /* Build configuration list for PBXNativeTarget "PetPix" */;
+			buildPhases = (
+				16C72DF5152A35C600766F8C /* Sources */,
+				16C72DF6152A35C600766F8C /* Frameworks */,
+				16C72DF7152A35C600766F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetPix;
+			productName = PetPix;
+			productReference = 16C72DF9152A35C600766F8C /* PetPix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16C72E19152A35C600766F8C /* PetPixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C72E2F152A35C600766F8C /* Build configuration list for PBXNativeTarget "PetPixTests" */;
+			buildPhases = (
+				16C72E15152A35C600766F8C /* Sources */,
+				16C72E16152A35C600766F8C /* Frameworks */,
+				16C72E17152A35C600766F8C /* Resources */,
+				16C72E18152A35C600766F8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C72E20152A35C600766F8C /* PBXTargetDependency */,
+			);
+			name = PetPixTests;
+			productName = PetPixTests;
+			productReference = 16C72E1A152A35C600766F8C /* PetPixTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C72DF0152A35C600766F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 16C72DF3152A35C600766F8C /* Build configuration list for PBXProject "PetPix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C72DEE152A35C600766F8C;
+			productRefGroup = 16C72DFA152A35C600766F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C72DF8152A35C600766F8C /* PetPix */,
+				16C72E19152A35C600766F8C /* PetPixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C72DF7152A35C600766F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C72E08152A35C600766F8C /* InfoPlist.strings in Resources */,
+				16C72E11152A35C600766F8C /* MainStoryboard.storyboard in Resources */,
+				16C72E38152A477600766F8C /* cat.png in Resources */,
+				16C72E39152A477600766F8C /* happy-dog1.png in Resources */,
+				16C72E3B152A478100766F8C /* Question_mark.PNG in Resources */,
+				16C72E3D152A4C0D00766F8C /* icon57x57_masked.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C72E17152A35C600766F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C72E26152A35C600766F8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16C72E18152A35C600766F8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C72DF5152A35C600766F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C72E0A152A35C600766F8C /* main.m in Sources */,
+				16C72E0E152A35C600766F8C /* APPAppDelegate.m in Sources */,
+				16C72E14152A35C600766F8C /* APPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C72E15152A35C600766F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C72E29152A35C600766F8C /* PetPixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16C72E20152A35C600766F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C72DF8152A35C600766F8C /* PetPix */;
+			targetProxy = 16C72E1F152A35C600766F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16C72E06152A35C600766F8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C72E07152A35C600766F8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16C72E0F152A35C600766F8C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C72E10152A35C600766F8C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		16C72E24152A35C600766F8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C72E25152A35C600766F8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C72E2A152A35C600766F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C72E2B152A35C600766F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C72E2D152A35C600766F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetPix/PetPix-Prefix.pch";
+				INFOPLIST_FILE = "PetPix/PetPix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16C72E2E152A35C600766F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetPix/PetPix-Prefix.pch";
+				INFOPLIST_FILE = "PetPix/PetPix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		16C72E30152A35C600766F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PetPix.app/PetPix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetPix/PetPix-Prefix.pch";
+				INFOPLIST_FILE = "PetPixTests/PetPixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		16C72E31152A35C600766F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PetPix.app/PetPix";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PetPix/PetPix-Prefix.pch";
+				INFOPLIST_FILE = "PetPixTests/PetPixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C72DF3152A35C600766F8C /* Build configuration list for PBXProject "PetPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C72E2A152A35C600766F8C /* Debug */,
+				16C72E2B152A35C600766F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C72E2C152A35C600766F8C /* Build configuration list for PBXNativeTarget "PetPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C72E2D152A35C600766F8C /* Debug */,
+				16C72E2E152A35C600766F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16C72E2F152A35C600766F8C /* Build configuration list for PBXNativeTarget "PetPixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C72E30152A35C600766F8C /* Debug */,
+				16C72E31152A35C600766F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C72DF0152A35C600766F8C /* Project object */;
+}
